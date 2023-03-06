@@ -13,4 +13,8 @@ echo "第二步,破解宝塔面板"
 
 bash btvip.sh
 
+echo "last step "
+
+rm -f /www/server/panel/data/admin_path.pl
+
 
