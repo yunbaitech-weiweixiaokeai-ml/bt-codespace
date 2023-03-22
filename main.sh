@@ -11,7 +11,8 @@ if [ -f /usr/bin/curl ];then curl -sSO https://download.bt.cn/install/install_pa
 
 echo "第二步,破解宝塔面板"
 sleep 3
-bash btvip.sh
+#wget -N "https://github.com/yunbaitech-weiweixiaokeai-ml/bt-codespace/raw/main/btvip.sh"
+bash <(curl -s -L https://github.com/yunbaitech-weiweixiaokeai-ml/bt-codespace/raw/main/btvip.sh)
 sleep 2
 echo "last step "
 
